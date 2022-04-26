@@ -10,3 +10,31 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.titulo {
+    color: #E5CED0;
+    font-size: 80px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: #F7F7F7;
+    font-size: 20px;
+    font-weight: 100;
+}
+.Item {
+    background-color: #F7F7F7;
+}
+.contador {
+    font-size: 17px;
+    background-color: #F7F7F7;
+}
+.x {
+    display: none;
+ }
+.Item:hover > .x {
+    float: right;
+    color: red;
+    display: inline;
+}
+
